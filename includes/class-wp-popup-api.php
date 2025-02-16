@@ -50,39 +50,6 @@ class WP_Popup_API
 
         return rest_ensure_response($popups);
     }
-
-
-
-    // public function get_popup_data()
-    // {
-    //     // Hanya ambil post dengan post type `wp_popup`
-    //     $args = array(
-    //         'post_type' => 'wp_popup',
-    //         'posts_per_page' => 1,
-    //         'post_status'    => 'publish',
-    //     );
-
-    //     $query = new WP_Query($args);
-    //     $popups = array();
-
-    //     if ($query->have_posts()) {
-    //         while ($query->have_posts()) {
-    //             $query->the_post();
-    //             $popups[] = array(
-    //                 'title'   => get_the_title(),
-    //                 'content' => apply_filters('the_content', get_the_content()),
-    //                 'page'    => get_post_meta(get_the_ID(), 'page', true),
-    //                 'id'      => get_the_ID(),
-    //             );
-    //         }
-    //     }
-
-    //     if (empty($popups)) {
-    //         return new WP_Error('no_popup', 'Tidak ada pop-up yang tersedia.', array('status' => 404));
-    //     }
-
-    //     return $popups;
-    // }
 }
 
 new WP_Popup_API();

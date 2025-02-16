@@ -47,6 +47,8 @@ Setelah plugin berhasil diinstal, aktifkan plugin melalui menu **Dashboard > Plu
 wp plugin activate wordpress-popup-plugin
 ```
 
+````
+
 ### 3. Mengaktifkan Pop-up di Halaman Tertentu
 
 - Plugin secara otomatis akan menambahkan custom post type `wp_popup`. Anda dapat membuat pop-up baru dari menu **Pop Ups** di dashboard WordPress.
@@ -325,3 +327,9 @@ Kami menerima kontribusi untuk plugin ini. Jika Anda memiliki ide atau perbaikan
 
 - **Nama**: [Nama Anda]
 - **GitHub**: [https://github.com/username](https://github.com/username)
+
+## Hasil
+
+![alt text](image.png)
+
+````

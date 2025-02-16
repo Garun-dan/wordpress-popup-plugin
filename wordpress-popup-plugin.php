@@ -91,33 +91,6 @@ final class WP_Popup_Plugin
         }
     }
 
-
-    // public function enqueue_scripts()
-    // {
-    //     if (!is_admin()) {
-    //         // Load React-based popup script
-    //         wp_enqueue_script(
-    //             'wp-popup-script',
-    //             plugin_dir_url(__FILE__) . 'assets/js/popup.bundle.js',
-    //             array('wp-element'), // WP React dependency
-    //             filemtime(plugin_dir_path(__FILE__) . 'assets/js/popup.bundle.js'),
-    //             true
-    //         );
-
-    //         wp_enqueue_style(
-    //             'wp-popup-style',
-    //             plugin_dir_url(__FILE__) . 'assets/css/popup.css',
-    //             array(),
-    //             filemtime(plugin_dir_path(__FILE__) . 'assets/css/popup.css')
-    //         );
-
-    //         wp_localize_script('wp-popup-script', 'wpPopup', array(
-    //             'nonce'  => wp_create_nonce('wp_rest'),
-    //             'apiUrl' => rest_url('artistudio/v1/popup')
-    //         ));
-    //     }
-    // }
-
     public function load_textdomain()
     {
         load_plugin_textdomain('wordpress-popup-plugin', false, dirname(plugin_basename(__FILE__)) . '/languages');

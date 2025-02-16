@@ -1,0 +1,50 @@
+# Sistem Operasi
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Editor & IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Direktori & File Build
+/dist/
+/build/
+/vendor/
+
+# Cache & Log
+*.log
+.cache/
+.env
+.env.local
+.env.*.local
+
+# WordPress
+wp-content/uploads/
+wp-content/cache/
+wp-content/debug.log
+
+# Laravel
+bootstrap/cache/
+storage/
+.env*
+
+# PHP
+*.php~
+
+# Lainnya
+*.zip
+*.tar.gz
+*.sql
+*.sqlite3
+*.bak
+*.backup
